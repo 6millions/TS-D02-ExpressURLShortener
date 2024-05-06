@@ -13,7 +13,7 @@ This project is a simple URL shortener implemented using TypeScript and Express.
 
 To shorten a URL, send a POST request to `/shorten` with a JSON body containing the `longUrl` parameter:
 
-```json
+json
 {
     "longUrl": "https://localhost:3000/long-url-path"
 }
